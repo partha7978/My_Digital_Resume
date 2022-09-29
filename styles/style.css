@@ -92,7 +92,7 @@ li {
     list-style: none;
 }
 
-.wrapper-techstack__items {
+.wrapper-techstack__items, .project--link {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
@@ -105,7 +105,7 @@ li {
     border-radius: 5px;
 }
 
-.education--history{
+.education--history, .project--detail{
     border-left: 1px solid var(--mainBorderColor);
     margin-top: 3em;
     margin-bottom: 3em;
