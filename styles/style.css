@@ -116,3 +116,9 @@ li {
     background-color: var(--mainBorderColor);
     height: 1px;
 }
+.project--link > a > .card--techstack {
+    transition: 0.3s;
+}
+.project--link > a > .card--techstack:hover {
+   border-color: var(--mainLinkColor);
+}
