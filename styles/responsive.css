@@ -31,9 +31,23 @@
         justify-content: space-evenly;
         gap: 1.5em;
     }
+    #email {
+        margin-top: 1.2em;
+    }
 }
 @media only screen and (max-width: 480px) {
     #user-name {
         font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #user-name {
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 340px) {
+    #email {
+        font-size: 0.8em;
     }
 }
